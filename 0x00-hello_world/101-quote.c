@@ -1,25 +1,47 @@
-#include <stdio.h>
-
-#include <stdlib.h>
+nclude <unistd.h>
 
 
 
 /**
  *
- *  * main - Entry point
+ * *main - print
  *
- *   * Return: Always 1 (Success)
+ * *
  *
- *    */
+ * Return: Always 1 (successful)
+ *
+ * */
 
 int main(void)
 
 {
 
-		write(STDOUT_FILENO, "and that piece of art is useful
+	write(2, "and that piece of art is useful \" - Dora Korpar, 2015-10-19\n", 59);
 
-							\" - Dora Korpar, 2015-10-19\n", 59);
-
-			return (1);
+	return (1);
 
 }
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
