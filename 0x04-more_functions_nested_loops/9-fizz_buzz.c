@@ -6,7 +6,7 @@
  * but for multiples of three prints Fizz instead of the number
  * and for the multiples of five prints Buzz
  * Return: Always 0 (Success)
- 8/
+ */
 int main(void)
 {
 	int i;
@@ -27,7 +27,7 @@ int main(void)
 			printf("%d", i);
 		} else
 		{
-			printf("%d", i);
+			printf(" %d", i);
 		}
 	}
 	printf("\n");
