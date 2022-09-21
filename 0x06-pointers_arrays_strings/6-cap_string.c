@@ -2,9 +2,8 @@
 
 /**
  * cap_string - capitalises every word of a string
- * @s: string to modify
- *
- * Return: the resulting string
+ * @s: string
+ * Return: address of s
  */
 char *cap_string(char *s)
 {
