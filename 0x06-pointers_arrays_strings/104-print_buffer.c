@@ -8,7 +8,7 @@
  */
 int isPrintableASCII(int n)
 {
-	return (n >= 2 && n <= 126);
+	return (n >= 32 && n <= 126);
 }
 
 /**
@@ -38,6 +38,7 @@ void printHexes(char *b, int start, int end)
  * formatted to replace nonprintable chars with '.'
  * @b: string to print
  * @start: starting position
+ * @end: ending position
  */
 void printASCII(char *b, int start, int end)
 {
@@ -66,7 +67,7 @@ void print_buffer(char *b, int size)
 	{
 		for (start = 0; start < size; start += 10)
 		{
-			end = size - start < 10) ? size - start : 10;
+			end = (size - start < 10) ? size - start : 10;
 			printf("%08x: ", start);
 			printHexes(b, start, end);
 			printASCII(b, start, end);
