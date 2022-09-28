@@ -21,7 +21,7 @@ int str_checker(char *s1, char *s2, int i, int j)
 	return (0);
 }
 /**
- * wildcmp - checks if strings can be considered iDdentical
+ * wildcmp - checks if strings can be considered identical
  * @s1: base address for string
  * @s2: base address for string
  *
