@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * string_nconcat - concatenates two strings
- *
  * @s1: string one
  * @s2: string two
- * @n: unsigned int
+ * @n: index
  *
  * Return: If the function fails, it should return NULL
  */
