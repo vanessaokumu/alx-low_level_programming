@@ -29,7 +29,7 @@ int op_sub(int a, int b)
  * @a: integer  one
  * @b: integer two
  *
- * REturn: the product of a and b
+ * Return: the product of a and b
  */
 int op_mul(int a, int b)
 {
@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - calculates the division of two integers
+ * op_div - calculates the quotient of two integers
  * @a: integer one
  * @b: integer two
  *
@@ -45,6 +45,11 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	return (a / b);
 }
 
@@ -57,5 +62,10 @@ int op_div(int a, int b)
  */
 int op_mod(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	return (a % b);
 }
