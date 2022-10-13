@@ -1,4 +1,6 @@
 #include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - performs simple operations
@@ -7,7 +9,7 @@
  *
  * Return: Always 0
  */
-int main(int argc, char **rgv[])
+int main(int argc, char *argv[])
 {
 	int a = 0, b = 0, res = 0;
 	char s;
