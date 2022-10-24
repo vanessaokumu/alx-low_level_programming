@@ -2,8 +2,8 @@
 
 /**
  * _strlen - calculates the length of a string
- * @str: string to be duplicated
- * Return: the address of the new element, or NULL if it failed
+ * @s: a character
+ * Return: i
  */
 int _strlen(const char *s)
 {
@@ -20,7 +20,7 @@ int _strlen(const char *s)
  * add_node - adds a new node at beginning of  list_t list
  * @head: of a list_t list
  * @str: value to insert into element
- * Return: number of nodes
+ * Return: the address of the new element, or NULL if it failed
  */
 list_t *add_node(list_t **head, const char *str)
 {
