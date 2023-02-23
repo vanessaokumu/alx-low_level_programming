@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Fuction that returns the perimeter of the island described in grid"""
 
+
 def island_perimeter(grid):
     """calculate width and height"""
     height = 0
